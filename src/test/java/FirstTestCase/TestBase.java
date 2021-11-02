@@ -43,8 +43,8 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("videoName", "KishMishTestCaseForFirstSendOrder.mp4");
-        capabilities.setCapability("name", "KishMishTestCaseForFirstSendOrder");
+        capabilities.setCapability("videoName", "SushiBoomTestCaseForFirstSendOrder.mp4");
+        capabilities.setCapability("name", "SushiBoomTestCaseForFirstSendOrder");
         capabilities.setCapability("browserName", "chrome");
         capabilities.setCapability("browserVersion", "91.0");
 
